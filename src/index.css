@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:#FEDA77;
+  color: #515BD4 ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Nav*/
+.costum-nav .collapse{
+  justify-content: flex-end;
+}
+
+/*LOGIN*/
+.login{
+  min-height: 100vh;
+  align-items:center;
+  background: linear-gradient(90deg,
+  #FEDA77 0%,
+  #DD2A7B 56%,
+  #FEDA77 73%
+  ) 
+}
+.login h6{
+  margin: top 15px; 
+}
+.register{
+  min-height: 100vh;
+  align-items:center;
+  background: linear-gradient(90deg,
+  #FEDA77 0%,
+  #DD2A7B 56%,
+  #FEDA77 73%
+  )
+  
+}
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem; /* add border radius */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.login-box {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
